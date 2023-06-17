@@ -1,0 +1,24 @@
+body{
+
+    font-size: 20px;
+    color: #016093;
+    background-image: url("jh.jpg");
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.para{
+    width: 50%;
+    margin: 250px auto auto 350px;
+}
+h1{
+    color:#023848;
+    border-bottom: solid gray;
+    background: #087497;
+}
+p{
+    position: center;
+}

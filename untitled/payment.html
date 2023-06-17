@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <style type="text/css">
+    *
+    {
+      padding: 0;
+      margin: 0;
+
+    }
+    body{
+      background-image: url("payment.jpg");
+      background-position:center;
+      background-size:cover;
+      font-family: sans-serif;
+      margin-top:40px;
+
+    }
+    .payment{
+      width:800px;
+      background-color:rgb(0,0,0,0.6);
+      text-align: center;
+      color: #ffffff;
+      margin: auto;
+      padding:10px 0px 10px 0px;
+      border-radius: 15px 15px 0px 0px;
+
+    }
+    .creat{
+      width:800px;
+      background-color:rgb(0,0,0,0.5);
+      margin: auto;
+
+    }
+    form{
+      padding:5px;
+    }
+    #name{
+      width:100%;
+      height:100px;
+    }
+    .name{
+      margin-left:20px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .wid{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+
+
+
+    .trans{
+      margin-left:25px;
+      margin-top:3px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+      ;
+
+    }
+    .transco{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+
+
+    .Date{
+      margin-left:25px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .datee{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+    .typepay{
+      margin-left:25px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .typapayy{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+    .USD{
+      margin-left:25px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .USDD{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+    .jod{
+      margin-left:25px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .jodd{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+    .ils{
+      margin-left:25px;
+      margin-top:30px;
+      width:125px;
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+    }
+    .ilss{
+      position: relative;
+      top: -37px;
+      left: 300px;
+      padding: 0 22px;
+      border-radius:6px;
+      font-size:16px;
+      line-height: 40px;
+    }
+
+
+    button{
+      background-color: #3baf9f;
+      display:block;
+      color: white;
+
+      padding: 14px 110px;
+      border-radius:12px;
+      text-align:center;
+      outline:none;
+      margin: 20px 0px 0px 20px;
+      border: 2px solid #366473;
+
+
+    }
+    h3{
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="payment"><h1> Payment </h1></div>
+<div class="creat">
+  <form>
+    <div id="name">
+      <h2 class="name">Wallet id</h2>
+      <input class="wid" type=text" >
+
+    </div>
+    <h2 class="trans">Transcode</h2>
+    <input class="transco" type=text" name="addr">
+    <h2 class="Date">Date</h2>
+    <input class="datee" type=date" name="date"><br>
+    <h2 class="typepay">Type of payment</h2>
+    <input class="typapayy" type=text" name="paymenttype"><br>
+    <h3 class="">Amount</h3>
+    <h2 class="USD">USD</h2>
+    <input class="USDD" type=text" ><br>
+    <h2 class="jod">JOD</h2>
+    <input class="jodd" type=text" name="date"><br>
+    <h2 class="ils">NIS</h2>
+    <input class="ilss" type=text" name="date"><br>
+
+            <button type="submit">Pay</button>
+       </form>
+</div>
+</body>
+</html>

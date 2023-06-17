@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="first.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Transfer</title>
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-image: url("ggf.PNG");
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+      box-sizing: border-box;
+      font-family: sans-serif;
+
+    }
+    .sign{
+
+      width: 400px;
+      padding: 25px;
+      margin: 25px auto 0;
+
+    }
+    h4{
+      padding-bottom: 40px;
+      color: #111111;
+    }
+    .sign h2{
+      background-color: #fcfcfc;
+      color: #179301;
+      font-size: 24px;
+      padding: 10px;
+      margin-bottom: 60px;
+      text-align: left;
+    }
+    .inputb{
+      width: 100%;
+      margin-right: 12px;
+      position: relative;
+    }
+    form .txt_field{
+      position: relative;
+      border-bottom: 0px solid #adadad;
+      margin: 7px 0;
+    }
+    .txt_field input{
+      width: 30%;
+      padding:0 3px;
+      height: 40px;
+      font-size: 16px;
+      color:#111111;
+
+    }
+
+    .txt_field span::before{
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 30%;
+      height: 2px;
+      background: #2691d9;
+      color:#111111;
+    }
+    .txt_field input:focus~label,
+    .txt_field input:valid~label{
+      top:-5px;
+      color: #ffff;
+
+    }
+
+    .txt_field input:focus~span::before,
+    .txt_field input:valid~span::before{
+      width: 30%;
+
+    }
+    .dob:focus{
+      -webkit-box-shadow:0 0 2px 1px #179301;
+      -moz-box-shadow:0 0 2px 1px #179301;
+      box-shadow: 0 0 2px 1px #179301;
+      border: 1px solid #179301;
+    }
+
+    .dob{
+      width: 10%;
+      padding: 14px;
+      text-align: center;
+      background-color: #fcfcfc;
+      transition: 0.3s;
+      outline: none;
+      border: 1px solid #c0bfbf;
+      border-radius: 3px;
+    }
+    .radio{
+      display: inline-block;
+      padding-right: 70px;
+      margin-left:25px;
+      margin-top:15px;
+
+      font-size: 25px;
+      color: white;
+
+    }
+    button{
+      width: 10%;
+      background: transparent;
+      border: none;
+      background: #011E93;
+      color: #fff;
+      padding: 15px;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: all 0.35s ;
+    }
+    button:hover{
+      cursor: pointer;
+      background: #5eb105;
+    }
+  </style>
+</head>
+<body>
+<div class="sign"><h1> Transfer Form </h1></div>
+<div class="creat">
+  <form>
+    <div id="name">
+      <h4> Transfer Details</h4>
+      <div class="txt_field">
+        <input type="text" required>
+        <span></span>
+        <label> ID sender</label>
+        <i class="fa fa-users icon"></i>
+
+      </div>
+      <div class="txt_field">
+        <input type="text" required>
+        <span></span>
+
+        <label>ID receiver</label>
+        <i class="fa fa-users icon"></i>
+      </div>
+
+      <div class="txt_field">
+        <input type="text" required>
+        <span></span>
+
+        <label>Email receiver</label>
+        <i class="fa fa-envelope"></i>
+
+      </div>
+
+
+
+
+
+
+
+      <div class="inputg">
+        <div class="inputb">
+          <h4> Date of transfer</h4>
+          <input type="text" placeholder="DD" required class="dob">
+          <input type="text" placeholder="MM" required class="dob">
+          <input type="text" placeholder="YY" required class="dob">
+        </div>
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label> Amount</label>
+        </div>
+        <div class="inputb">
+          <h4> Currency</h4>
+          <input type="radio" id="D1" name=" currency" checked class="radio">
+          <label for="D1">ILS</label>
+          <input type="radio" id="D2" name=" currency"  class="radio">
+          <label for="D2">USD</label>
+          <input type="radio" id="D3" name=" currency"  class="radio">
+          <label for="D3">JOD</label>
+          <div class="inputg">
+            <div class="inputb">
+              <button type=submit">Trans!</button>
+         </form>
+</div>
+</body>
+</html>

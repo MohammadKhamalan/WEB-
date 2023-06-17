@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73fe7e87-8c2a-49d4-b45a-59807c644212" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="24qJh0oN8XFdImFg7wNxiLuUuPF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/web/untitled",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73fe7e87-8c2a-49d4-b45a-59807c644212" name="Changes" comment="" />
+      <created>1644352302524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644352302524</updated>
+      <workItem from="1644352305924" duration="1480000" />
+      <workItem from="1645282812674" duration="6708000" />
+      <workItem from="1645792952947" duration="6709000" />
+      <workItem from="1645871552035" duration="9234000" />
+      <workItem from="1647015368753" duration="28740000" />
+      <workItem from="1647110981073" duration="643000" />
+      <workItem from="1647114818226" duration="1370000" />
+      <workItem from="1647146392074" duration="1596000" />
+      <workItem from="1649703263506" duration="3541000" />
+      <workItem from="1649748882471" duration="16579000" />
+      <workItem from="1649839603872" duration="6582000" />
+      <workItem from="1649960818647" duration="1027000" />
+      <workItem from="1649962105961" duration="3850000" />
+      <workItem from="1650026853787" duration="6182000" />
+      <workItem from="1650060069630" duration="1392000" />
+      <workItem from="1650108976000" duration="6091000" />
+      <workItem from="1650293821098" duration="4685000" />
+      <workItem from="1650460172739" duration="10388000" />
+      <workItem from="1650569510026" duration="3079000" />
+      <workItem from="1650668507582" duration="1238000" />
+      <workItem from="1650816651170" duration="9125000" />
+      <workItem from="1650912053685" duration="8177000" />
+      <workItem from="1650954121488" duration="5417000" />
+      <workItem from="1651051859815" duration="611000" />
+      <workItem from="1651236244096" duration="2414000" />
+      <workItem from="1651239185030" duration="710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
